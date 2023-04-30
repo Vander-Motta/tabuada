@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Super Tabuada</title>
+    <style>
+        body{
+            background: lightblue;
+            font: normal 15pt Arial;
+        }
+
+        header{
+            color: white;
+            text-align: center;
+        }
+
+        section{
+            background: white;
+            border-radius: 16px;
+            padding: 15px;
+            width: 500px;
+            margin: auto;
+            box-shadow: 3px 3px 10px black;
+        }
+
+        footer{
+            color: white;
+            text-align: center;
+            font-style: italic;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tabuada</h1>
+    </header>
+    <section>
+        <div id="dados">
+            <p>Digite um Numero: <input type="number" name="num" id="txtn"></p>
+           <p><input type="button" value="contar" onclick="contar()"></p>
+        </div>
+        <div id="res">
+           <select name="tabuada" id="seltab" size="10">
+            <option>Digite um numero </option>
+           </select>
+        </div>
+    </section>
+    <footer>
+        <p>&copy; Curso do Vander</p>
+    </footer>   
+</body>
+<script src="javascript.js"></script>
+</html>
